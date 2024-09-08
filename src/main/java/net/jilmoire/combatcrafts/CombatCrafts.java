@@ -22,7 +22,7 @@ public class CombatCrafts implements ModInitializer {
 		// Proceed with mild caution.
 		itemreg.itemload();
 		itemreg.itemlogger();
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Mod initiated!");
 	}
 	public static Identifier id(String path) {
 		return Identifier.of(MOD_ID, path);
