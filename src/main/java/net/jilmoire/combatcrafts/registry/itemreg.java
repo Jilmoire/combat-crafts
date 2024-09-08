@@ -15,6 +15,6 @@ public class itemreg {
     }
 
     public static final Item EXAMPLE_ITEM = (registerItem("example_item", new Item(new Item.Settings())));
-
+    /// Watch datagen tutorial before adding other shits and giggles
     public static void itemload(){}
 }
