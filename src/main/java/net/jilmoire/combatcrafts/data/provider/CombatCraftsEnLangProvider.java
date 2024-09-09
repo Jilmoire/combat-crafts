@@ -5,13 +5,11 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.jilmoire.combatcrafts.CombatCrafts;
 import net.jilmoire.combatcrafts.registry.itemgroupreg;
 import net.jilmoire.combatcrafts.registry.itemreg;
-import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableTextContent;
 import org.jetbrains.annotations.NotNull;
 
-import java.rmi.registry.Registry;
 import java.util.concurrent.CompletableFuture;
 
 public class CombatCraftsEnLangProvider extends FabricLanguageProvider {
@@ -29,7 +27,13 @@ public class CombatCraftsEnLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
-        translationBuilder.add(itemreg.EXAMPLE_ITEM, "Example Item");
+        translationBuilder.add(itemreg.BLADE, "Sword Blade");
+        translationBuilder.add(itemreg.HILT, "Sword Hilt");
+        translationBuilder.add(itemreg.GUARD, "Sword Guard");
+        translationBuilder.add(itemreg.GRIP, "Sword Grip");
+        translationBuilder.add(itemreg.POMMEL, "Sword Pommel");
+
+
         addtext(translationBuilder, itemgroupreg.EXAMPLE_TITLE, "Combat Crafts");
     }
 }

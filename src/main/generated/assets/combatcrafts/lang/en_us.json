@@ -1,4 +1,8 @@
 {
-  "item.combatcrafts.example_item": "Example Item",
+  "item.combatcrafts.sword_blade": "Sword Blade",
+  "item.combatcrafts.sword_grip": "Sword Grip",
+  "item.combatcrafts.sword_guard": "Sword Guard",
+  "item.combatcrafts.sword_hilt": "Sword Hilt",
+  "item.combatcrafts.sword_pommel": "Sword Pommel",
   "itemGroup.combatcrafts.example_group": "Combat Crafts"
 }

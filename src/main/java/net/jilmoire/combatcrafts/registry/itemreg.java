@@ -15,7 +15,11 @@ public class itemreg {
         return Registry.register(Registries.ITEM, CombatCrafts.id(name), item);
     }
     ///Items will call the method and be added in the game.
-    public static final Item EXAMPLE_ITEM = (registerItem("example_item", new Item(new Item.Settings())));
+    public static final Item BLADE= (registerItem("sword_blade", new Item(new Item.Settings())));
+    public static final Item HILT = (registerItem("sword_hilt", new Item(new Item.Settings())));
+    public static final Item GUARD = (registerItem("sword_guard", new Item(new Item.Settings())));
+    public static final Item GRIP = (registerItem("sword_grip", new Item(new Item.Settings())));
+    public static final Item POMMEL = (registerItem("sword_pommel", new Item(new Item.Settings())));
 
     ///Loads the entire script.
     public static void itemload(){}

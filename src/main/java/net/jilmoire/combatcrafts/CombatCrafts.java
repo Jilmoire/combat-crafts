@@ -26,7 +26,7 @@ public class CombatCrafts implements ModInitializer {
 		//Loggers
 		itemreg.itemlogger();
 		itemgroupreg.groupLog();
-		LOGGER.info("Mod initiated!");
+		CombatCrafts.LOGGER.info("Mod initiated!");
 	}
 	public static Identifier id(String path) {
 		return Identifier.of(MOD_ID, path);
