@@ -77,7 +77,7 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
                 .offerTo(exporter);
 
-        List<ItemConvertible> PRECRAFT = List.of(Items.IRON_INGOT);
+        List<ItemConvertible> PRECRAFT = List.of(BUCKET_IRON);
 
         RecipeProvider.offerBlasting(exporter,
                 PRECRAFT,

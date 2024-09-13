@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_ingot": {
+    "has_bucket_iron": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:iron_ingot"
+              "combatcrafts:bucket_iron"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:melted_iron_from_blasting_iron_ingot"
+        "recipe": "minecraft:melted_iron_from_blasting_bucket_iron"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_iron_ingot",
+      "has_bucket_iron",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:melted_iron_from_blasting_iron_ingot"
+      "minecraft:melted_iron_from_blasting_bucket_iron"
     ]
   },
   "sends_telemetry_event": false

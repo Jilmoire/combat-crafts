@@ -5,7 +5,7 @@
   "experience": 0.2,
   "group": "cc",
   "ingredient": {
-    "item": "minecraft:iron_ingot"
+    "item": "combatcrafts:bucket_iron"
   },
   "result": "combatcrafts:melted_iron"
 }
