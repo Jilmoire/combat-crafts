@@ -21,7 +21,10 @@ public class CombatCraftsModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(itemreg.BLADE, Models.GENERATED);
+        itemModelGenerator.register(itemreg.IRON_BLADE, Models.GENERATED);
+        itemModelGenerator.register(itemreg.GOLD_BLADE, Models.GENERATED);
+        itemModelGenerator.register(itemreg.DIAMOND_BLADE, Models.GENERATED);
+
         itemModelGenerator.register(itemreg.HILT, Models.GENERATED);
         itemModelGenerator.register(itemreg.GRIP, Models.GENERATED);
         itemModelGenerator.register(itemreg.GUARD, Models.GENERATED);

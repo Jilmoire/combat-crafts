@@ -1,6 +1,8 @@
-// 1.20.1	2024-09-09T12:08:09.417524583	Combat Crafts/Model Definitions
+// 1.20.1	2024-09-13T10:47:03.524409085	Combat Crafts/Model Definitions
 f5bf6e093f9353a9ddff44059846527799aab700 assets/combatcrafts/models/item/sword_grip.json
 3131d4320940239d95f857fece1681db9681aac0 assets/combatcrafts/models/item/sword_pommel.json
 f5ee95114283009dd14fe77fa91127723999eba0 assets/combatcrafts/models/item/sword_guard.json
+03c2f14876f3dd700a38ad178f32392177f5963d assets/combatcrafts/models/item/d_sword_blade.json
+cd0e1171ceece2c89d9659ce2ae71decbcff412b assets/combatcrafts/models/item/g_sword_blade.json
 3b6f822f7735e081ac2b856e35be298ed3323d9c assets/combatcrafts/models/item/sword_hilt.json
 39b5f20f783ae47b5d638a01e662e84e423a64c7 assets/combatcrafts/models/item/sword_blade.json

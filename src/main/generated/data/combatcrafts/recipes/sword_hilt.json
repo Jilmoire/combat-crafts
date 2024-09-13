@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "combatcrafts:sword_guard"
+    },
+    "I": {
+      "item": "combatcrafts:sword_grip"
+    },
+    "P": {
+      "item": "combatcrafts:sword_pommel"
+    }
+  },
+  "pattern": [
+    "GIP"
+  ],
+  "result": {
+    "item": "combatcrafts:sword_hilt"
+  },
+  "show_notification": true
+}

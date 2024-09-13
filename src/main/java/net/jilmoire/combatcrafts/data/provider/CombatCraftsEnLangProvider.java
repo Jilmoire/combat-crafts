@@ -27,7 +27,11 @@ public class CombatCraftsEnLangProvider extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
-        translationBuilder.add(itemreg.BLADE, "Sword Blade");
+        translationBuilder.add(itemreg.IRON_BLADE, "Iron Blade");
+        translationBuilder.add(itemreg.GOLD_BLADE, "Gold Blade");
+        translationBuilder.add(itemreg.DIAMOND_BLADE, "Diamond Blade");
+
+
         translationBuilder.add(itemreg.HILT, "Sword Hilt");
         translationBuilder.add(itemreg.GUARD, "Sword Guard");
         translationBuilder.add(itemreg.GRIP, "Sword Grip");

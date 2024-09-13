@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sword_grip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "combatcrafts:sword_grip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sword_guard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "combatcrafts:sword_guard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sword_pommel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "combatcrafts:sword_pommel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "combatcrafts:sword_hilt"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_sword_guard",
+      "has_sword_grip",
+      "has_sword_pommel",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "combatcrafts:sword_hilt"
+    ]
+  },
+  "sends_telemetry_event": false
+}

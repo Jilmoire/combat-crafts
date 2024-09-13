@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "combatcrafts:g_sword_blade"
+    },
+    "H": {
+      "item": "combatcrafts:sword_hilt"
+    }
+  },
+  "pattern": [
+    "   ",
+    " B ",
+    "H  "
+  ],
+  "result": {
+    "item": "minecraft:golden_sword"
+  },
+  "show_notification": true
+}

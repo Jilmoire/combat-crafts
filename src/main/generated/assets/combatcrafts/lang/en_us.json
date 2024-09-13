@@ -1,5 +1,7 @@
 {
-  "item.combatcrafts.sword_blade": "Sword Blade",
+  "item.combatcrafts.d_sword_blade": "Diamond Blade",
+  "item.combatcrafts.g_sword_blade": "Gold Blade",
+  "item.combatcrafts.sword_blade": "Iron Blade",
   "item.combatcrafts.sword_grip": "Sword Grip",
   "item.combatcrafts.sword_guard": "Sword Guard",
   "item.combatcrafts.sword_hilt": "Sword Hilt",
