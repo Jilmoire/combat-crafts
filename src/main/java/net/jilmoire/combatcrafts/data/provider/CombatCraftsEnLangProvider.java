@@ -37,6 +37,10 @@ public class CombatCraftsEnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(itemreg.GRIP, "Sword Grip");
         translationBuilder.add(itemreg.POMMEL, "Sword Pommel");
 
+        translationBuilder.add(itemreg.MOLD, "Sword Mold");
+        translationBuilder.add(itemreg.MELT_IRON, "Melted Iron");
+        translationBuilder.add(itemreg.BUCKET_IRON, "Iron in a Bucket");
+
 
         addtext(translationBuilder, itemgroupreg.EXAMPLE_TITLE, "Combat Crafts");
     }

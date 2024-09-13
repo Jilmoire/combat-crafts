@@ -26,6 +26,11 @@ public class itemreg {
     public static final Item GRIP = (registerItem("sword_grip", new Item(new Item.Settings())));
     public static final Item POMMEL = (registerItem("sword_pommel", new Item(new Item.Settings())));
 
+    ///Pre-Crafting Steps
+    public static final Item MOLD = (registerItem("blade_mold", new Item(new Item.Settings())));
+    public static final Item MELT_IRON = (registerItem("melted_iron", new Item(new Item.Settings())));
+    public static final Item BUCKET_IRON = (registerItem("bucket_iron", new Item(new Item.Settings())));
+
     ///Loads the entire script.
     public static void itemload(){}
 }

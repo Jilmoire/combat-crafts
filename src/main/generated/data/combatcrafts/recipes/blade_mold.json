@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "combatcrafts:melted_iron"
+    },
+    "S": {
+      "item": "minecraft:sand"
+    }
+  },
+  "pattern": [
+    " I ",
+    "SSS"
+  ],
+  "result": {
+    "item": "combatcrafts:blade_mold"
+  },
+  "show_notification": true
+}

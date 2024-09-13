@@ -4,14 +4,16 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.jilmoire.combatcrafts.registry.itemreg;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.RecipeProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 
+import java.util.List;
 import java.util.function.Consumer;
 
-import static net.jilmoire.combatcrafts.registry.itemreg.GOLD_BLADE;
-import static net.jilmoire.combatcrafts.registry.itemreg.IRON_BLADE;
+import static net.jilmoire.combatcrafts.registry.itemreg.*;
 
 public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
 
@@ -53,8 +55,6 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
                         .criterion(FabricRecipeProvider.hasItem(itemreg.GRIP), conditionsFromItem(itemreg.GRIP))
                         .criterion(FabricRecipeProvider.hasItem(itemreg.POMMEL), conditionsFromItem(itemreg.POMMEL))
                         .offerTo(exporter);
-
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, itemreg.GRIP)
                 .input('S', Items.STICK).input('L', Items.LEATHER)
                 .pattern("SL")
@@ -62,6 +62,29 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, itemreg.MOLD)
+                .input('S', Items.SAND).input('I', MELT_IRON)
+                .pattern(" I ")
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Items.SAND), conditionsFromItem(Items.SAND))
+                .criterion(FabricRecipeProvider.hasItem(MOLD), conditionsFromItem(MOLD))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, BUCKET_IRON)
+                .input('I', Items.IRON_INGOT).input('B', Items.BUCKET)
+                .pattern("I")
+                .pattern("B")
+                .criterion(FabricRecipeProvider.hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .criterion(FabricRecipeProvider.hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
+                .offerTo(exporter);
 
+        List<ItemConvertible> PRECRAFT = List.of(Items.IRON_INGOT);
+
+        RecipeProvider.offerBlasting(exporter,
+                PRECRAFT,
+                RecipeCategory.MISC,
+                MELT_IRON,
+                0.2f,
+                100,
+                "cc");
     }
 }
