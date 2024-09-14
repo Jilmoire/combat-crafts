@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_bucket_gold": {
+    "has_bucket_diamond": {
       "conditions": {
         "items": [
           {
             "items": [
-              "combatcrafts:bucket_gold"
+              "combatcrafts:bucket_diamond"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:melted_diamond_from_blasting_bucket_gold"
+        "recipe": "minecraft:melted_diamond_from_blasting_bucket_diamond"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_bucket_gold",
+      "has_bucket_diamond",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:melted_diamond_from_blasting_bucket_gold"
+      "minecraft:melted_diamond_from_blasting_bucket_diamond"
     ]
   },
   "sends_telemetry_event": false
