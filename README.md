@@ -8,9 +8,9 @@ This mod will include the following:
 Alpha: 0.1.0 (Set up)
 Alpha: 0.2.0 (Added Recipes for Iron Sword to Diamond Sword)
 # Questions?
-  - When will this mod release?
+  ### When will this mod release?
 First version of the mod will most likely be pre-released when it's in Alpha: 1.0.0.
-  - What will it change in the game?
+  ### What will it change in the game?
 Crafting recipes for weapons by adding more steps to craft them.
-  - Will it impact the gameplay heavily?
+  ### Will it impact the gameplay heavily?
 No, of course not.
