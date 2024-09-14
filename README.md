@@ -7,7 +7,7 @@ This mod will include the following:
 
 # Questions?
   ### When will this mod release?
-First version of the mod will most likely be pre-released when it's in Alpha: 1.0.0.
+First 'complete' version of the mod will most likely be pre-released when it's in Alpha: 1.0.0.
   ### What will it change in the game?
 Crafting recipes for weapons by adding more steps to craft them.
   ### Will it impact the gameplay heavily?
