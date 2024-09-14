@@ -86,7 +86,7 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
 
         List<ItemConvertible> NOIDEA = List.of(BUCKET_IRON);
         List<ItemConvertible> HOWTO = List.of(BUCKET_GOLD);
-        List<ItemConvertible> SEPARATETHESE = List.of(BUCKET_GOLD);
+        List<ItemConvertible> SEPARATETHESE = List.of(BUCKET_DIAMOND);
 
         RecipeProvider.offerBlasting(exporter,
                 NOIDEA,
