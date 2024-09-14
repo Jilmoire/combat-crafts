@@ -76,15 +76,40 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .criterion(FabricRecipeProvider.hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
                 .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, BUCKET_GOLD)
+                .input('I', Items.GOLD_INGOT).input('B', Items.BUCKET)
+                .pattern("I")
+                .pattern("B")
+                .criterion(FabricRecipeProvider.hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+                .criterion(FabricRecipeProvider.hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
+                .offerTo(exporter);
 
-        List<ItemConvertible> PRECRAFT = List.of(BUCKET_IRON);
+        List<ItemConvertible> NOIDEA = List.of(BUCKET_IRON);
+        List<ItemConvertible> HOWTO = List.of(BUCKET_GOLD);
+        List<ItemConvertible> SEPARATETHESE = List.of(BUCKET_GOLD);
 
         RecipeProvider.offerBlasting(exporter,
-                PRECRAFT,
+                NOIDEA,
                 RecipeCategory.MISC,
                 MELT_IRON,
                 0.2f,
                 100,
+                "cc");
+
+        RecipeProvider.offerBlasting(exporter,
+                HOWTO,
+                RecipeCategory.MISC,
+                MELT_GOLD,
+                0.2f,
+                80,
+                "cc");
+
+        RecipeProvider.offerBlasting(exporter,
+                SEPARATETHESE,
+                RecipeCategory.MISC,
+                MELT_DIAMOND,
+                0.2f,
+                250,
                 "cc");
     }
 }

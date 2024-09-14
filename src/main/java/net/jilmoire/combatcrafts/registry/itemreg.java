@@ -29,7 +29,11 @@ public class itemreg {
     ///Pre-Crafting Steps
     public static final Item MOLD = (registerItem("blade_mold", new Item(new Item.Settings())));
     public static final Item MELT_IRON = (registerItem("melted_iron", new Item(new Item.Settings())));
+    public static final Item MELT_GOLD = (registerItem("melted_gold", new Item(new Item.Settings())));
+    public static final Item MELT_DIAMOND = (registerItem("melted_diamond", new Item(new Item.Settings())));
     public static final Item BUCKET_IRON = (registerItem("bucket_iron", new Item(new Item.Settings())));
+    public static final Item BUCKET_GOLD = (registerItem("bucket_gold", new Item(new Item.Settings())));
+    public static final Item BUCKET_DIAMOND = (registerItem("bucket_diamond", new Item(new Item.Settings())));
 
     ///Loads the entire script.
     public static void itemload(){}
