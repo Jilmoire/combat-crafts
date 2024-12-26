@@ -64,6 +64,7 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, itemreg.MOLD)
                 .input('S', Items.SAND).input('I', MELT_IRON)
+                .pattern("SSS")
                 .pattern(" I ")
                 .pattern("SSS")
                 .criterion(FabricRecipeProvider.hasItem(Items.SAND), conditionsFromItem(Items.SAND))
@@ -82,6 +83,29 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
                 .pattern("B")
                 .criterion(FabricRecipeProvider.hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
                 .criterion(FabricRecipeProvider.hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, BUCKET_DIAMOND)
+                .input('D', Items.DIAMOND).input('B', Items.BUCKET)
+                .pattern("D")
+                .pattern("B")
+                .criterion(FabricRecipeProvider.hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
+                .criterion(FabricRecipeProvider.hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, GOLD_BLADE)
+                .input('G', MELT_GOLD).input('M', MOLD)
+                .pattern("DM")
+                .criterion(FabricRecipeProvider.hasItem(itemreg.MELT_GOLD),conditionsFromItem(MELT_GOLD))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, DIAMOND_BLADE)
+                .input('D', MELT_DIAMOND).input('M', MOLD)
+                .pattern("DM")
+                .criterion(FabricRecipeProvider.hasItem(itemreg.MELT_DIAMOND),conditionsFromItem(MELT_DIAMOND))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, IRON_BLADE)
+                .input('I', IRON_BLADE).input('M', MOLD)
+                .pattern("DM")
+                .criterion(FabricRecipeProvider.hasItem(itemreg.MELT_DIAMOND),conditionsFromItem(MELT_IRON))
                 .offerTo(exporter);
 
         List<ItemConvertible> NOIDEA = List.of(BUCKET_IRON);

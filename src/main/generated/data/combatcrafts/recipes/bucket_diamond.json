@@ -2,20 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "I": {
-      "item": "combatcrafts:melted_iron"
+    "B": {
+      "item": "minecraft:bucket"
     },
-    "S": {
-      "item": "minecraft:sand"
+    "D": {
+      "item": "minecraft:diamond"
     }
   },
   "pattern": [
-    "SSS",
-    " I ",
-    "SSS"
+    "D",
+    "B"
   ],
   "result": {
-    "item": "combatcrafts:blade_mold"
+    "item": "combatcrafts:bucket_diamond"
   },
   "show_notification": true
 }

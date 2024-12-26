@@ -1,15 +1,15 @@
-// 1.20.1	2024-09-14T22:09:08.82632164	Combat Crafts/Model Definitions
-e790077404d5d9e22b93867dd4044e9678e9a85a assets/combatcrafts/models/item/melted_gold.json
-3a534f3bc7dea60e12db46ff47f84785fa529127 assets/combatcrafts/models/item/bucket_iron.json
-f5ee95114283009dd14fe77fa91127723999eba0 assets/combatcrafts/models/item/sword_guard.json
-cd0e1171ceece2c89d9659ce2ae71decbcff412b assets/combatcrafts/models/item/g_sword_blade.json
-3b6f822f7735e081ac2b856e35be298ed3323d9c assets/combatcrafts/models/item/sword_hilt.json
-ee66072e6ff88b869e0e86557ac5a218e7250d22 assets/combatcrafts/models/item/blade_mold.json
-39b5f20f783ae47b5d638a01e662e84e423a64c7 assets/combatcrafts/models/item/sword_blade.json
-f5bf6e093f9353a9ddff44059846527799aab700 assets/combatcrafts/models/item/sword_grip.json
-2b36123eded5342a41e3a53c89f3a50a5c5a8c87 assets/combatcrafts/models/item/melted_diamond.json
-3131d4320940239d95f857fece1681db9681aac0 assets/combatcrafts/models/item/sword_pommel.json
-03c2f14876f3dd700a38ad178f32392177f5963d assets/combatcrafts/models/item/d_sword_blade.json
+// 1.20.1	2024-12-26T14:08:28.977359217	Combat Crafts/Model Definitions
 0549be4d81492c4029efb4128d7a30d4ad3c4966 assets/combatcrafts/models/item/bucket_diamond.json
 0a639b597a3cab8705e9ca555f23a950b6126ae2 assets/combatcrafts/models/item/melted_iron.json
+3131d4320940239d95f857fece1681db9681aac0 assets/combatcrafts/models/item/sword_pommel.json
+2b36123eded5342a41e3a53c89f3a50a5c5a8c87 assets/combatcrafts/models/item/melted_diamond.json
 869389791da0b8d85737cc148053c3ce67f91682 assets/combatcrafts/models/item/bucket_gold.json
+f5ee95114283009dd14fe77fa91127723999eba0 assets/combatcrafts/models/item/sword_guard.json
+e790077404d5d9e22b93867dd4044e9678e9a85a assets/combatcrafts/models/item/melted_gold.json
+cd0e1171ceece2c89d9659ce2ae71decbcff412b assets/combatcrafts/models/item/g_sword_blade.json
+ee66072e6ff88b869e0e86557ac5a218e7250d22 assets/combatcrafts/models/item/blade_mold.json
+3a534f3bc7dea60e12db46ff47f84785fa529127 assets/combatcrafts/models/item/bucket_iron.json
+f5bf6e093f9353a9ddff44059846527799aab700 assets/combatcrafts/models/item/sword_grip.json
+03c2f14876f3dd700a38ad178f32392177f5963d assets/combatcrafts/models/item/d_sword_blade.json
+39b5f20f783ae47b5d638a01e662e84e423a64c7 assets/combatcrafts/models/item/sword_blade.json
+3b6f822f7735e081ac2b856e35be298ed3323d9c assets/combatcrafts/models/item/sword_hilt.json
