@@ -1,7 +1,7 @@
 # COMBAT CRAFTS
 This mod aims to change the crafting mechanics for combat tools.
 This mod will include the following:
-  - Semi-realistic weapon crafting system. (Not accurate really...)
+  - Semi-realistic weapon crafting system [Swords and Bow]. (Not accurate really...)
   - "Still vanila" way of crafting tools.
   - Longer crafting steps for weapons.
 
