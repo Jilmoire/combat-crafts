@@ -38,5 +38,8 @@ public class CombatCraftsModelProvider extends FabricModelProvider {
         itemModelGenerator.register(itemreg.BUCKET_GOLD, Models.GENERATED);
         itemModelGenerator.register(itemreg.BUCKET_DIAMOND, Models.GENERATED);
 
+        itemModelGenerator.register(itemreg.B_FRAME, Models.GENERATED);
+        itemModelGenerator.register(itemreg.SSTRING, Models.GENERATED);
+        itemModelGenerator.register(itemreg.B_STRING, Models.GENERATED);
     }
 }

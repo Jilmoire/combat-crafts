@@ -44,6 +44,9 @@ public class CombatCraftsEnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(itemreg.BUCKET_IRON, "Iron in a Bucket");
         translationBuilder.add(itemreg.BUCKET_DIAMOND, "Diamond in a Bucket");
 
+        translationBuilder.add(itemreg.B_FRAME, "Bow Frame");
+        translationBuilder.add(itemreg.SSTRING, "Strengthened String");
+        translationBuilder.add(itemreg.B_STRING, "Bowstring");
 
         addtext(translationBuilder, itemgroupreg.EXAMPLE_TITLE, "Combat Crafts");
     }

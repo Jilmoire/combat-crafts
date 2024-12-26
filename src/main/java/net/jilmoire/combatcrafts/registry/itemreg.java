@@ -35,6 +35,11 @@ public class itemreg {
     public static final Item BUCKET_GOLD = (registerItem("bucket_gold", new Item(new Item.Settings())));
     public static final Item BUCKET_DIAMOND = (registerItem("bucket_diamond", new Item(new Item.Settings())));
 
+    ///Bow Recipe
+    public static final Item SSTRING = (registerItem("enhanced_string", new Item(new Item.Settings())));
+    public static final Item B_FRAME = (registerItem("bow_frame", new Item(new Item.Settings())));
+    public static final Item B_STRING = (registerItem("bow_string", new Item(new Item.Settings())));
+
     ///Loads the entire script.
     public static void itemload(){}
 }

@@ -135,5 +135,32 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
                 0.2f,
                 250,
                 "cc");
+
+        
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, B_FRAME)
+                .input('S', Items.STICK).input('L', Items.LEATHER)
+                .pattern(" S ")
+                .pattern(" SL")
+                .pattern(" S ")
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(FabricRecipeProvider.hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, SSTRING, 2)
+                .input('S', Items.STRING)
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, B_STRING)
+                .input('S', itemreg.SSTRING)
+                .pattern("SSS")
+                .criterion(FabricRecipeProvider.hasItem(itemreg.SSTRING), conditionsFromItem(itemreg.SSTRING))
+                .offerTo(exporter);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.BOW)
+                .input('S', B_STRING).input('F', B_FRAME)
+                .pattern("SB")
+                .criterion(FabricRecipeProvider.hasItem(itemreg.B_STRING), conditionsFromItem(itemreg.B_STRING))
+                .criterion(FabricRecipeProvider.hasItem(itemreg.B_FRAME), conditionsFromItem(itemreg.B_FRAME))
+                .offerTo(exporter);
+
     }
 }
