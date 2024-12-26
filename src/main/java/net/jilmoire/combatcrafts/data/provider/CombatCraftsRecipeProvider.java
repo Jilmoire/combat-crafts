@@ -157,7 +157,7 @@ public class CombatCraftsRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.BOW)
                 .input('S', B_STRING).input('F', B_FRAME)
-                .pattern("SB")
+                .pattern("SF")
                 .criterion(FabricRecipeProvider.hasItem(itemreg.B_STRING), conditionsFromItem(itemreg.B_STRING))
                 .criterion(FabricRecipeProvider.hasItem(itemreg.B_FRAME), conditionsFromItem(itemreg.B_FRAME))
                 .offerTo(exporter);
