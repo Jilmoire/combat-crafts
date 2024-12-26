@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "combatcrafts:melted_gold"
+    },
+    "M": {
+      "item": "combatcrafts:blade_mold"
+    }
+  },
+  "pattern": [
+    "GM"
+  ],
+  "result": {
+    "item": "combatcrafts:g_sword_blade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "combatcrafts:bow_frame"
+    },
+    "S": {
+      "item": "combatcrafts:bow_string"
+    }
+  },
+  "pattern": [
+    "SF"
+  ],
+  "result": {
+    "item": "minecraft:bow"
+  },
+  "show_notification": true
+}

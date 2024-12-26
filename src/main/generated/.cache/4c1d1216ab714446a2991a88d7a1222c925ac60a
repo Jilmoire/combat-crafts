@@ -1,8 +1,9 @@
-// 1.20.1	2024-12-26T14:08:28.977359217	Combat Crafts/Model Definitions
+// 1.20.1	2024-12-26T16:46:31.980314424	Combat Crafts/Model Definitions
 0549be4d81492c4029efb4128d7a30d4ad3c4966 assets/combatcrafts/models/item/bucket_diamond.json
+685119fca2cde9c0a11bd2a5ce7c8a36dc3aef23 assets/combatcrafts/models/item/bow_string.json
 0a639b597a3cab8705e9ca555f23a950b6126ae2 assets/combatcrafts/models/item/melted_iron.json
-3131d4320940239d95f857fece1681db9681aac0 assets/combatcrafts/models/item/sword_pommel.json
 2b36123eded5342a41e3a53c89f3a50a5c5a8c87 assets/combatcrafts/models/item/melted_diamond.json
+3131d4320940239d95f857fece1681db9681aac0 assets/combatcrafts/models/item/sword_pommel.json
 869389791da0b8d85737cc148053c3ce67f91682 assets/combatcrafts/models/item/bucket_gold.json
 f5ee95114283009dd14fe77fa91127723999eba0 assets/combatcrafts/models/item/sword_guard.json
 e790077404d5d9e22b93867dd4044e9678e9a85a assets/combatcrafts/models/item/melted_gold.json
@@ -12,4 +13,6 @@ ee66072e6ff88b869e0e86557ac5a218e7250d22 assets/combatcrafts/models/item/blade_m
 f5bf6e093f9353a9ddff44059846527799aab700 assets/combatcrafts/models/item/sword_grip.json
 03c2f14876f3dd700a38ad178f32392177f5963d assets/combatcrafts/models/item/d_sword_blade.json
 39b5f20f783ae47b5d638a01e662e84e423a64c7 assets/combatcrafts/models/item/sword_blade.json
+40b33c89e7ae648b90f31f249db5a276db6a1a7d assets/combatcrafts/models/item/bow_frame.json
+2b5e2fc4ce3c27a99698c8ca8a729b5f9900f3f0 assets/combatcrafts/models/item/enhanced_string.json
 3b6f822f7735e081ac2b856e35be298ed3323d9c assets/combatcrafts/models/item/sword_hilt.json

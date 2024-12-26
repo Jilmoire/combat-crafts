@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "combatcrafts:melted_diamond"
+    },
+    "M": {
+      "item": "combatcrafts:blade_mold"
+    }
+  },
+  "pattern": [
+    "DM"
+  ],
+  "result": {
+    "item": "combatcrafts:d_sword_blade"
+  },
+  "show_notification": true
+}

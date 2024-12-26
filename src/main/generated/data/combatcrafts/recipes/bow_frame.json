@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    " SL",
+    " S "
+  ],
+  "result": {
+    "item": "combatcrafts:bow_frame"
+  },
+  "show_notification": true
+}

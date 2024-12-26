@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bow_frame": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "combatcrafts:bow_frame"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bow_string": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "combatcrafts:bow_string"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bow"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bow_string",
+      "has_bow_frame",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bow"
+    ]
+  },
+  "sends_telemetry_event": false
+}

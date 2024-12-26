@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "combatcrafts:sword_blade"
+    },
+    "M": {
+      "item": "combatcrafts:blade_mold"
+    }
+  },
+  "pattern": [
+    "IM"
+  ],
+  "result": {
+    "item": "combatcrafts:sword_blade"
+  },
+  "show_notification": true
+}
