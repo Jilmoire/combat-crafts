@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "M": {
+      "item": "combatcrafts:cb_metal_frame"
+    },
+    "S": {
+      "item": "combatcrafts:stirrup"
+    },
+    "W": {
+      "item": "combatcrafts:crossbow_base"
+    }
+  },
+  "pattern": [
+    "B  ",
+    "SMW"
+  ],
+  "result": {
+    "item": "minecraft:crossbow"
+  },
+  "show_notification": true
+}

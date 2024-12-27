@@ -41,5 +41,9 @@ public class CombatCraftsModelProvider extends FabricModelProvider {
         itemModelGenerator.register(itemreg.B_FRAME, Models.GENERATED);
         itemModelGenerator.register(itemreg.SSTRING, Models.GENERATED);
         itemModelGenerator.register(itemreg.B_STRING, Models.GENERATED);
+
+        itemModelGenerator.register(itemreg.M_FRAME, Models.GENERATED);
+        itemModelGenerator.register(itemreg.STIRRUP, Models.GENERATED);
+        itemModelGenerator.register(itemreg.W_BASE, Models.GENERATED);
     }
 }

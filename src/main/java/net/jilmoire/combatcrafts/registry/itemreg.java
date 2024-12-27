@@ -40,6 +40,11 @@ public class itemreg {
     public static final Item B_FRAME = (registerItem("bow_frame", new Item(new Item.Settings())));
     public static final Item B_STRING = (registerItem("bow_string", new Item(new Item.Settings())));
 
+    ///Crossbow Recipe
+    public static final Item STIRRUP = (registerItem("stirrup", new Item(new Item.Settings())));
+    public static final Item W_BASE = (registerItem("crossbow_base", new Item(new Item.Settings())));
+    public static final Item M_FRAME = (registerItem("cb_metal_frame", new Item(new Item.Settings())));
+
     ///Loads the entire script.
     public static void itemload(){}
 }

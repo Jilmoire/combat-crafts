@@ -48,6 +48,10 @@ public class CombatCraftsEnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(itemreg.SSTRING, "Strengthened String");
         translationBuilder.add(itemreg.B_STRING, "Bowstring");
 
+        translationBuilder.add(itemreg.M_FRAME, "Metal Crossbow Frame");
+        translationBuilder.add(itemreg.STIRRUP, "Stirrup");
+        translationBuilder.add(itemreg.W_BASE, "Wooden Crossbow Base");
+
         addtext(translationBuilder, itemgroupreg.EXAMPLE_TITLE, "Combat Crafts");
     }
 }

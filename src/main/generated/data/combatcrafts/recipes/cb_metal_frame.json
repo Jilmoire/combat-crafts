@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "iii",
+    "iII"
+  ],
+  "result": {
+    "item": "combatcrafts:cb_metal_frame"
+  },
+  "show_notification": true
+}
